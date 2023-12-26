@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif ;
+}
+
+#layer1{
+    background-color: #FFCD9E;
+    height:70vh;                       
+    width:100vw;                            
+    display:inline-flex;                        
+    border:2px solid black;
+}
+
+#box1{
+    float:left; 
+    width:50vw;                        
+    height:70vh;    
+     align-items: center; 
+    padding-top:35px; 
+    padding-left:65px;                  
+}
+
+#box2 > img {
+  width:50vw;
+  float:right;
+  height:70vh;
+
+}
+
+.first{
+    color: #282828;
+    font-family: Inter;
+    width: 562px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+}
+
+.para{
+   width: 495px;
+   height: 81px;
+   padding-top:14px;
+}
+
+.second{
+   color: #484848;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 130%; 
+}
+
+.span{
+    color: #282828;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: 160%; 
+   padding-top:25px;
+}
+
+.last{
+   display: flex;
+   width: 280px;
+   height: 61px;
+   flex-direction: column;
+   justify-content: center;
+   flex-shrink: 0;
+}
+
+.end1{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+}
+
+button{
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   background-color: black;
+   border-radius: 4px;
+   width:200px;
+   height:37px;
+   border:none;
+} 
+
+input[type=email]{
+   width: 300px;
+   height: 30px;
+   flex-shrink: 0;
+   border-radius: 4px;
+   border: 3px solid #000;
+   background: #FFF;
+}
+
+#layer2{
+   width:100vw;                                                                              
+   height: 30vh;                              
+   background-color: black;
+   color:white;
+   box-sizing: border-box;
+   display:flex;
+}
+
+.box3{
+   float:left;
+   width: 50vw;
+   height: 30vh;                
+   padding-left:100px;
+   padding-top:18px; 
+}
+
+li{
+   color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 180%;
+   list-style: none;
+}
+
+.box4{
+   float:right;
+   width:50vw;
+   height:30vh;
+   padding-right:173px;
+   padding-top:16px;
+   text-align: right;
+   flex-shrink: 0;
+   color: #FFF;
+   text-align: right;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 160%;
+}
